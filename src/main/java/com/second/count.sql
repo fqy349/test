@@ -1,0 +1,1 @@
+SELECT station, COUNT(*) AS '部门人数' FROM staff_message GROUP BY station

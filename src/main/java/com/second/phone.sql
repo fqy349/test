@@ -1,0 +1,1 @@
+UPDATE staff_message set phone = CONCAT(LEFT(phone,3), '*****' ,RIGHT(phone,3));
